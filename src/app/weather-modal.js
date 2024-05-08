@@ -48,7 +48,7 @@ return(
             <p>Your location : {data.name}</p>
             
           </div>
-          <div> {data.main ? <h1>Today's temp : {data.main.temp.toFixed()}°F</h1> : null}</div>
+          <div> {data.main ? <h1>Today&apos;s temp : {data.main.temp.toFixed()}°F</h1> : null}</div>
         <div>
         {data.weather ? <p>Weather type : {data.weather[0].main}</p> : null}
         </div>
